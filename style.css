@@ -1,0 +1,41 @@
+body {
+    background-color: darkslategrey;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.header-logo {
+    max-width: 100px;
+    margin-right: auto;
+}
+
+.hero-image {
+    max-width: 500px;
+}
+
+.card-image {
+    max-width: 300px;
+}
+
+.header {
+    flex-direction: row;
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .header-links ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 20px;
+  }
