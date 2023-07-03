@@ -99,7 +99,7 @@ ul {
 
   .hero {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     gap: 20px;
   }
 
@@ -190,8 +190,8 @@ ul {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    width: 50%;
-    max-width: 50%;
+    width: 75%;
+    max-width: 75%;
     margin-right: 0px;
   }
 
@@ -205,8 +205,16 @@ ul {
   .cta-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    gap: 50px;
 
+  }
+
+  .cta-button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
 
   .cta-text-section {
